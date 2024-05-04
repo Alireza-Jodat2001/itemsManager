@@ -6,5 +6,206 @@
         <link rel="stylesheet" href="styles/style.scss" />
         <title>Items Manager</title>
     </head>
-    <body></body>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="option-container box-shadow">
+                    <select class="option-container__select">
+                        <option>
+                            حقوق مدنی (<span
+                                
+                                >1 id کتگوری</span
+                            >)
+                        </option>
+                    </select>
+                    <img src="./images/icons8-sort-down-96.png" class="option-container__chevron-icon"></img>
+                </div>
+
+                <div class="search-container">
+                    <button class="search-container__button">افزودن</button>
+                    <input type="text" class="search-container__input" placeholder="اموال و مالکیت ....">
+                    <button class="search-container__button">ذخیره</button>
+                </div>
+            </div>
+
+            <div class="main">
+                <div class="items-container">
+                    <ul class="list-items">
+                        <li class="list-items__li">
+                            <p class="list-items__title">۱- اموال و مالکیت</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--show">نمایش در سایت</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--subShow">نمایش زیر شاخه</button>
+                            </div>
+                        </li>
+
+                        <li class="list-items__li">
+                            <p class="list-items__title">۲- اشخاص و محجوین</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--show">نمایش در سایت</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--subShow">نمایش زیر شاخه</button>
+                            </div>
+                        </li>
+
+                        <li class="list-items__li list-items__li--active">
+                            <p class="list-items__title">۳- عقود معین</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--show">نمایش در سایت</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--subShow">نمایش زیر شاخه</button>
+                            </div>
+                        </li>
+
+                        <li class="list-items__li">
+                            <p class="list-items__title">۴- حقوق خانواده</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--show">نمایش در سایت</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--subShow">نمایش زیر شاخه</button>
+                            </div>
+                        </li>
+
+                        <li class="list-items__li">
+                            <p class="list-items__title">۵- پرداخت ثمن</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--hide">پنهان کردن</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--subShow">ایجاد زیر شاخه</button>
+                                <button class="list-items__button list-items__button--create-content">تولید محتوا</button>
+                            </div>
+                        </li>
+
+                        <li class="list-items__li">
+                            <p class="list-items__title">۶- ضامن درک مبیع</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--hide">پنهان کردن</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--subShow">ایجاد زیر شاخه</button>
+                                <button class="list-items__button list-items__button--create-content">تولید محتوا</button>
+                            </div>
+                        </li>
+
+                        <li class="list-items__li">
+                            <p class="list-items__title">۷- تسلیم مبیع</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--hide">پنهان کردن</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--subShow">ایجاد زیر شاخه</button>
+                                <button class="list-items__button list-items__button--create-content">تولید محتوا</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="subItems-container">
+                    <ul class="subItems-list">
+                        <li class="list-items__li">
+                            <p class="list-items__title">۱- تسلیم مبیع</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--hide">پنهان کردن</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--subShow">ایجاد زیر شاخه</button>
+                                <button class="list-items__button list-items__button--create-content">تولید محتوا</button>
+                            </div>
+                        </li>
+
+                        <li class="list-items__li">
+                            <p class="list-items__title">۲- پرداخت ثمن</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--hide">پنهان کردن</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--subShow">ایجاد زیر شاخه</button>
+                                <button class="list-items__button list-items__button--create-content">تولید محتوا</button>
+                            </div>
+                        </li>
+
+                        <li class="list-items__li">
+                            <p class="list-items__title">۳- ضامن درک مبیع</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--hide">پنهان کردن</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--subShow">ایجاد زیر شاخه</button>
+                                <button class="list-items__button list-items__button--create-content">تولید محتوا</button>
+                            </div>
+                        </li>
+
+                        <li class="list-items__li">
+                            <p class="list-items__title">۴- تسلیم مبیع</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--hide">پنهان کردن</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--subShow">ایجاد زیر شاخه</button>
+                                <button class="list-items__button list-items__button--create-content">تولید محتوا</button>
+                            </div>
+                        </li>
+
+                        <li class="list-items__li">
+                            <p class="list-items__title">۵- پرداخت ثمن</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--hide">پنهان کردن</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--subShow">ایجاد زیر شاخه</button>
+                                <button class="list-items__button list-items__button--create-content">تولید محتوا</button>
+                            </div>
+                        </li>
+
+                        <li class="list-items__li">
+                            <p class="list-items__title">۶- ضامن درک مبیع</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--hide">پنهان کردن</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--subShow">ایجاد زیر شاخه</button>
+                                <button class="list-items__button list-items__button--create-content">تولید محتوا</button>
+                            </div>
+                        </li>
+
+                        <li class="list-items__li">
+                            <p class="list-items__title">۷- تسلیم مبیع</p>
+                            <div class="list-items__button-box">
+                                <button class="list-items__button list-items__button--hide">پنهان کردن</button>
+                                <button class="list-items__button list-items__button--edit">ویرایش</button>
+                                <button class="list-items__button list-items__button--delete">حذف</button>
+                                <button class="list-items__button list-items__button--subShow">ایجاد زیر شاخه</button>
+                                <button class="list-items__button list-items__button--create-content">تولید محتوا</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="question-container">
+                <h1 class="question--title">عقد لازم را تعریف کنید:</h1>
+                <div class="question-box">
+                   <p>
+                      عقد لازم عقدی است که <span class="empty-box">..........</span> از طرفین
+                      <strong class="key-word">حق فسخ</strong> آن را نداشته باشند مگر در موارد معینه زیر
+                      :
+                   </p>
+                   <div class="answer--box">
+                      <span class="item answer--box__item1">هیچ یک</span>
+                      <span class="item answer--box__item2">هر یک</span>
+                      <span class="item answer--box__item3">عده ای</span>
+                   </div>
+                </div>
+                <div class="question-container__btns">
+                   <button>ایجاد</button>
+                   <button>ذخیره</button>
+                </div>
+             </div>
+        </div>
+    </body>
 </html>
